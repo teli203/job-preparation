@@ -13,10 +13,17 @@
 
   #bx_ {
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     padding: 8px;
     border: 1.5px solid rgb(183, 31, 171);
+  }
+
+  #bx_ h1 {
+    margin: 0; 
+    padding-bottom: 10px; 
+    align-self: center;
   }
   
   .header { grid-area: header; }
