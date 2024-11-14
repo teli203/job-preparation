@@ -10,18 +10,26 @@
       "left-panel low-content right-panel"
       "footer footer footer";
   }
+
+  #bx_ {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 8px;
+    border: 1.5px solid rgb(183, 31, 171);
+  }
   
   .header { grid-area: header; }
   
   .banner { grid-area: banner; }
   
-  .left-panel { grid-area: left panel; }
+  .left-panel { grid-area: left-panel; }
   
-  .right-panel { grid-area: right panel; }
+  .right-panel { grid-area: right-panel; }
   
-  .main-content { grid-area: main content; }
+  .main-content { grid-area: main-content; }
   
-  .low-content { grid-area: low content; }
+  .low-content { grid-area: low-content; }
   
   .footer { grid-area: footer; }
   
