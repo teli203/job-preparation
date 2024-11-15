@@ -1,3 +1,9 @@
+body {
+    background: linear-gradient(to right, rgb(52, 51, 51), rgb(103, 103, 103), rgb(110, 97, 79), rgb(137, 119, 94));
+}
+
+
+
 .container {  display: grid;
     grid-template-columns: 0.6fr 1.8fr 0.6fr;
     grid-template-rows: 0.3fr 0.6fr 2.9fr 0.6fr 0.3fr;
@@ -28,7 +34,14 @@
   
   .header { grid-area: header; }
   
-  .banner { grid-area: banner; }
+  .banner {
+    grid-area: banner;
+    background-image: url('../assets/imgs/banner-brian.jpg'); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: whitesmoke;
+  }
   
   .left-panel { grid-area: left-panel; }
   
