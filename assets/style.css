@@ -1,5 +1,5 @@
 body {
-   background: #274546;
+   background: rgb(1, 23, 13);
    color: #274546;
 }
 
@@ -20,12 +20,12 @@ body {
 
   #bx_ {
     display: flex;
-    background: #efeee5;
+    background: rgb(234, 231, 225);
     flex-direction: column;
     align-items: center;
     justify-content: center;
     padding: 8px;
-    border: 3.5px solid rgb(91, 124, 99);
+    border: 4.5px solid rgb(91, 124, 99);
   }
 
   #bx_ h1 {
