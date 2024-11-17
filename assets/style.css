@@ -25,7 +25,7 @@ body {
   #bx_ft {
     display: flex;
     font-family: fantasy;
-    font-size: 1.1rem;
+    font-size: 1.2rem;
     font-stretch: semi-condensed;
     background: rgb(234, 231, 225);
     flex-direction: column;
@@ -36,8 +36,11 @@ body {
   }
 
   #bx_hr h1 {
-    font-size: 3rem;
+    font-size: 3.5rem;
     font-weight: 600;
+  }
+
+  h1 {
     text-decoration: underline;
     text-decoration-color: rgb(91, 124, 99);
     text-underline-offset: .5rem;
