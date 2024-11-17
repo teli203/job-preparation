@@ -39,6 +39,10 @@ body {
     padding-bottom: 10px; 
     align-self: center;
   }
+
+  span {
+    font-size: 4.5rem ;
+  }
   
   .header { 
     grid-area: header; 
