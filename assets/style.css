@@ -16,7 +16,13 @@ body {
       "footer footer footer";
   }
 
-  #bx_ {
+  #bx_hr,
+  #bx_br, 
+  #bx_lp, 
+  #bx_rp, 
+  #bx_mc,
+  #bx_lc, 
+  #bx_ft {
     display: flex;
     font-family: fantasy;
     font-size: 1.1rem;
@@ -29,7 +35,7 @@ body {
     border: 4.5px solid rgb(91, 124, 99);
   }
 
-  #bx_ h1 {
+  #bx_hr h1 {
     font-size: 3rem;
     font-weight: 600;
     text-decoration: underline;
