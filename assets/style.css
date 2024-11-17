@@ -49,6 +49,17 @@ body {
   span {
     font-size: 4.5rem ;
   }
+
+  .nav-links {
+    display: flex;
+    gap: 3rem;
+    list-style: none;
+    justify-content: space-evenly;
+    align-items: center;
+    text-underline-offset: .2rem;
+    min-height: 8vh;
+    padding: .9rem;
+  }
   
   .header { 
     grid-area: header; 
