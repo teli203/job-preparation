@@ -1,9 +1,12 @@
 body {
    background: rgb(1, 23, 13);
    color: rgb(3, 42, 25);
+   margin: 1em;
+   padding: .5em;
 }
 
-.container {  display: grid;
+.container { 
+    display: grid;
     grid-template-columns: 0.6fr 1.8fr 0.6fr;
     grid-template-rows: 0.3fr 0.6fr 2.9fr 0.6fr 0.3fr;
     gap: 1.5em 1.5em;
@@ -98,4 +101,37 @@ body {
   .low-content { grid-area: low-content; }
   
   .footer { grid-area: footer; }
+
+
+  /* Media Queries */
+
+  @media (max-width: 768px) {
+    .container { 
+      display: flexbox;
+      grid-template-columns: 1fr;
+      grid-template-rows: 1fr;
+      gap: 1rem;
+      margin: .7rem;
+      grid-auto-flow: row;
+      grid-template-areas:
+        "header"
+        "banner"
+        "left-panel"
+        "main-content" 
+        "right-panel"
+        "low-content "
+        "footer";
+    }
+
+    .nav-links {
+        display: block;
+        text-align: center;
+        font-size: 1.2rem;
+        margin: 2.2rem;
+    }
+
+    .btn {
+      margin: .8em;
+    }
+  }
   
