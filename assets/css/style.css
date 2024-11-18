@@ -63,6 +63,23 @@ body {
     min-height: 8vh;
     padding: .9rem;
   }
+
+  .btn {
+    font-weight: 500;
+    background-color: rgb(147, 164, 150);
+    padding: .5rem;
+    margin-bottom: .3rem;
+    min-height: 5vh;
+    max-width: 8rem;
+    color: rgb(3, 42, 25);
+    border: 3px solid rgb(3, 42, 25);
+    border-radius: 3.4px; 
+  }
+
+  button:hover {
+    cursor: pointer;
+    background-color: rgb(225, 252, 224);
+}
   
   .header { 
     grid-area: header; 
