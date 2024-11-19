@@ -16,7 +16,7 @@ box-shadow: 0 10px 32px 0 rgba(174, 179, 250, 0.727);
 backdrop-filter: blur(4px);
 -webkit-backdrop-filter: blur(2px);
 border-radius: 10px;
-border: 1px double rgba(248, 212, 246, 0.66);
+border: 5px double rgba(248, 212, 246, 0.66);
 }
 
 h1 {
@@ -33,6 +33,12 @@ h1 {
     align-items: center;
     justify-content: center;
     
+}
+
+.hills {
+    background-color: rgb(46, 20, 42);
+    border-radius: 10px;
+    border: 5px double rgba(248, 212, 246, 0.66);
 }
 
 /*   pause on design!  
