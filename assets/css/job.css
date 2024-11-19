@@ -38,18 +38,6 @@ h1 {
 .hills {
     background-color: rgb(46, 20, 42);
     border-radius: 10px;
+    padding: .2rem;
     border: 5px double rgba(248, 212, 246, 0.66);
 }
-
-/*   pause on design!  
-    margin-block: 1.5rem;
-    background: rgba(244, 218, 248, 0.714);
-    box-shadow: 0 15px 42px 0 rgba(244, 1, 227, 0.727);
-    backdrop-filter: blur( 4px );
-    -webkit-backdrop-filter: blur( 12px );
-    -webkit-background-clip: text;
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
-    border-radius: 10px;
-    border: 1px double rgba(7, 2, 7, 0.66);
- */
