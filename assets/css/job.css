@@ -44,6 +44,9 @@ h2 {
     border-bottom: 2.5px solid rgb(74, 32, 68);
 }
 
+h5 {
+    text-decoration: underline;
+}
 
 
 .hills {
