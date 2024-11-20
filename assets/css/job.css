@@ -19,13 +19,6 @@ border-radius: 10px;
 border: 5px double rgba(248, 212, 246, 0.66);
 }
 
-h1 {
-  font-family: 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  font-size: 3rem;
-  text-align: center;
-  color: rgb(46, 20, 42); 
-}
-
 .job-board {
     margin-block: 1.5rem;
     padding: 2rem;
@@ -33,6 +26,13 @@ h1 {
     align-items: center;
     justify-content: center;
     
+}
+
+h1 {
+  font-family: 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 3rem;
+  text-align: center;
+  color: rgb(46, 20, 42); 
 }
 
 .hills {
