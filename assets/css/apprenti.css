@@ -1,3 +1,7 @@
 body {
-    background-color: rgb(226, 251, 249);
+    background-color: rgb(43, 44, 44);
+    color: rgb(240, 248, 255);
+    margin: 1.5rem;
+    padding: 1.5rem;
+    border: 5px dotted rgb(240, 248, 255);
 }
