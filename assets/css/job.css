@@ -60,7 +60,7 @@ h5 {
 }
 
 .btn {
-    display: inline;
+    display: inline;  /* rethink */
     background-color: rgb(105, 87, 121);
     color: rgb(224, 221, 221);
     margin: .5rem;
@@ -70,9 +70,13 @@ h5 {
 }
 
 .pgh_btm {
-    display: block;
-    margin-block: .7rem;
+        white-space: pre-wrap; /* This CSS property respects line breaks (newlines) added in your content as is without the need for <br> or wrapping elements. */
+        columns: 200px 2;
+        column-gap: 30px;
+        padding: 25px;
+        font-weight: 425;
 }
+
 
 
 @media (max-width: 600px) {
