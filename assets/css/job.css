@@ -69,6 +69,17 @@ h5 {
     border-radius: .3rem;
 }
 
+.nav-links {
+    display: flex;
+    gap: 1rem;
+    list-style: none;
+    font-size: 1rem;
+    justify-content: space-evenly;
+    align-items: center;
+    min-height: 8vh;
+    padding: 10px;
+ }
+
 .pgh_btm {
         white-space: pre-wrap; /* This CSS property respects line breaks (newlines) added in your content as is without the need for <br> or wrapping elements. */
         columns: 200px 2;
