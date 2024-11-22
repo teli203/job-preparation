@@ -20,7 +20,21 @@ body {
     border: 2px solid darkmagenta; 
 
 }
-  
+
+.cssanimation, .cssanimation span {
+    animation-duration: 1s;
+    animation-fill-mode: both;
+}
+
+.cssanimation span { display: inline-block }
+
+.pepe { animation-name: pepe; animation-iteration-count: infinite }
+@keyframes pepe {
+    from, 33%, 66%, to { transform: rotate(4deg) }
+    16%, 50%, 83% { transform: rotate(-4deg) }
+}
+
+
   .footer { 
     grid-area: footer; 
     border: 2px solid darkmagenta; 
