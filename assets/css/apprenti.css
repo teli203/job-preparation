@@ -13,11 +13,20 @@ body {
 
 h1 {
     font-size: 2rem;
-    text-decoration: underline;
-    text-underline-offset: .6rem;
+    color: rgb(43, 43, 43);
+    border: .5px solid rgb(249, 244, 209);
+    border-radius: .2rem;
+}
+
+.gradient-text {
+    background: linear-gradient(to right, #fcd3e4, #e479a4,#79d2e4, #4a0d29); 
 }
 
 h3 {
+    text-decoration: underline;
+    text-decoration-color: rgb(225, 89, 112);
+    text-underline-offset: .3rem;
+    margin-top: 5.5rem;
     color: aqua;
 }
 
@@ -26,11 +35,31 @@ h4 {
 }
 
 h5 {
-    color: rgb(168, 222, 204);
+    color: rgb(100, 246, 197);
 }
 
 a {
     color: rgb(158, 168, 177);
+    text-underline-offset: .2rem;
 }
 
+a:hover {
+    color: rgb(252, 251, 248);
+}
+
+.ftr {
+    color: #4a0d29;
+}
+
+@media (max-width: 740px){
+    .container {
+        max-width: 50em;
+        padding: 4em;
+    }
+
+    h1 {
+        font-size: 1.5rem;
+    }
+    
+}
 
