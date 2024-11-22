@@ -2,3 +2,47 @@ body {
     background-color: aqua;
 } 
 
+.container {  display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 0.5fr 1.5fr 1.1fr 1.4fr 0.5fr;
+    gap: 1.5em 1em;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "header header"
+      "inter tech"
+      "inter tech"
+      "assess pjt"
+      "footer footer";
+  }
+  
+  .header { 
+    grid-area: header;
+    border: 2px solid darkmagenta; 
+
+}
+  
+  .footer { 
+    grid-area: footer; 
+    border: 2px solid darkmagenta; 
+}
+  
+  .inter { 
+    grid-area: inter; 
+    border: 2px solid darkmagenta; 
+}
+  
+  .tech { 
+    grid-area: tech; 
+    border: 2px solid darkmagenta; 
+}
+  
+  .assess { 
+    grid-area: assess; 
+    border: 2px solid darkmagenta; 
+}
+  
+  .pjt { 
+    grid-area: pjt;
+    border: 2px solid darkmagenta; 
+ }
+  
