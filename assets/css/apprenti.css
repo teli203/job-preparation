@@ -5,3 +5,32 @@ body {
     padding: 1.5rem;
     border: 5px dotted rgb(240, 248, 255);
 }
+
+.container {
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+}
+
+h1 {
+    font-size: 2rem;
+    text-decoration: underline;
+    text-underline-offset: .6rem;
+}
+
+h3 {
+    color: aqua;
+}
+
+h4 {
+    color: rgb(226, 187, 236);
+}
+
+h5 {
+    color: rgb(168, 222, 204);
+}
+
+a {
+    color: rgb(158, 168, 177);
+}
+
+
