@@ -1,6 +1,6 @@
 body {
     background-color:rgb(2,0,36);
-    background: radial-gradient(circle, rgb(9, 9, 9) 0%, rgb(253, 252, 253) 42%, rgb(87, 87, 87) 100%);
+    background: radial-gradient(circle, rgb(192, 191, 191) 0%, rgb(253, 252, 253) 42%, rgb(87, 87, 87) 100%);
     font-family: 'Quicksand', sans-serif;
     font-family: 'Britney', cursive;
     font-family: 'Erode', serif;
@@ -16,7 +16,7 @@ body {
 .container {  display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 0.5fr 1.5fr 1.1fr 1.4fr 0.5fr;
-    gap: 1.5em 1em;
+    gap: 2em 2em;
     grid-auto-flow: row;
     grid-template-areas:
       "header header"
@@ -28,8 +28,8 @@ body {
   
   .header { 
     grid-area: header;
-    
-    border: 2px solid darkmagenta; 
+    border: .4rem solid rgb(57, 4, 4); 
+    border-radius: 2.5rem;
 
 }
 
@@ -50,26 +50,31 @@ body {
 
   .footer { 
     grid-area: footer; 
-    border: 2px solid darkmagenta; 
+    border: .4rem solid rgb(57, 4, 4);
+    border-radius: 2.5rem; 
 }
   
   .inter { 
     grid-area: inter; 
-    border: 2px solid darkmagenta; 
+    border: .4rem solid rgb(57, 4, 4);
+    border-radius: 3rem;
 }
   
   .tech { 
     grid-area: tech; 
-    border: 2px solid darkmagenta; 
+    border: .4rem solid rgb(57, 4, 4);
+    border-radius: 3rem; 
 }
   
   .assess { 
     grid-area: assess; 
-    border: 2px solid darkmagenta; 
+    border: .4rem solid rgb(57, 4, 4);
+    border-radius: 3rem; 
 }
   
   .pjt { 
     grid-area: pjt;
-    border: 2px solid darkmagenta; 
+    border: .4rem solid rgb(57, 4, 4);
+    border-radius: 3rem; 
  }
   
