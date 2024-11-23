@@ -1,5 +1,6 @@
 body {
-    background-color: aqua;
+    background-color:rgb(2,0,36);
+    background: radial-gradient(circle, rgb(9, 9, 9) 0%, rgb(253, 252, 253) 42%, rgb(87, 87, 87) 100%);
     font-family: 'Quicksand', sans-serif;
     font-family: 'Britney', cursive;
     font-family: 'Erode', serif;
