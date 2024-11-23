@@ -1,5 +1,15 @@
 body {
     background-color: aqua;
+    font-family: 'Quicksand', sans-serif;
+    font-family: 'Britney', cursive;
+    font-family: 'Erode', serif;
+    font-family: 'Tanker', sans-serif;
+    font-family: 'Nunito', sans-serif;
+    font-family: 'Melodrama', serif;
+    font-family: 'Pilcrow Rounded', sans-serif;
+    font-family: 'Bonny', serif;
+    font-family: 'Amulya', sans-serif;
+    font-family: 'New Title', serif;
 } 
 
 .container {  display: grid;
@@ -17,10 +27,12 @@ body {
   
   .header { 
     grid-area: header;
+    
     border: 2px solid darkmagenta; 
 
 }
 
+/* CSS ANIAMTION */
 .cssanimation, .cssanimation span {
     animation-duration: 1s;
     animation-fill-mode: both;
