@@ -26,13 +26,6 @@ body {
       "assess pjt"
       "footer footer";
   }
-  
-  .header { 
-    grid-area: header;
-    border: .4rem solid rgb(57, 4, 4); 
-    border-radius: 2.5rem;
-
-}
 
 /* CSS ANIAMTION */
 .cssanimation, .cssanimation span {
@@ -48,34 +41,46 @@ body {
     16%, 50%, 83% { transform: rotate(-4deg) }
 }
 
-
-  .footer { 
-    grid-area: footer; 
+.inter,
+.tech,
+.assess,
+.pjt {
     border: .4rem solid rgb(57, 4, 4);
-    border-radius: 2.5rem; 
+    border-radius: 3rem; 
+}
+
+.header,
+.footer { 
+    border: .4rem solid rgb(57, 4, 4); 
+    border-radius: 2.5rem;
+
+}
+
+.header { 
+    grid-area: header;
+
 }
   
   .inter { 
     grid-area: inter; 
-    border: .4rem solid rgb(57, 4, 4);
-    border-radius: 3rem;
+   
 }
   
   .tech { 
     grid-area: tech; 
-    border: .4rem solid rgb(57, 4, 4);
-    border-radius: 3rem; 
+   
 }
   
   .assess { 
     grid-area: assess; 
-    border: .4rem solid rgb(57, 4, 4);
-    border-radius: 3rem; 
+   
 }
   
   .pjt { 
     grid-area: pjt;
-    border: .4rem solid rgb(57, 4, 4);
-    border-radius: 3rem; 
  }
+
+ .footer { 
+    grid-area: footer;   
+}
   
