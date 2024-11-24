@@ -2,16 +2,7 @@ body {
     background-color:rgb(2,0,36);
     background: radial-gradient(circle, rgb(192, 191, 191) 0%, rgb(253, 252, 253) 42%, rgb(87, 87, 87) 100%);
     text-align: center;
-    font-family: 'Quicksand', sans-serif;
-    font-family: 'Britney', cursive;
-    font-family: 'Erode', serif;
-    font-family: 'Tanker', sans-serif;
-    font-family: 'Nunito', sans-serif;
-    font-family: 'Melodrama', serif;
-    font-family: 'Pilcrow Rounded', sans-serif;
-    font-family: 'Bonny', serif;
-    font-family: 'Amulya', sans-serif;
-    font-family: 'New Title', serif;
+
 } 
 
 .container {  display: grid;
@@ -53,31 +44,49 @@ body {
 .footer { 
     border: .4rem solid rgb(57, 4, 4); 
     border-radius: 2.5rem;
+}
 
+h1 {
+    font-family: 'Tanker', sans-serif;
+    text-decoration: underline;
+    text-decoration-line: overline;
+    text-decoration-color: rgb(101, 3, 3); 
+}
+
+h3 {
+    text-decoration: underline;
+    text-decoration-color: rgb(101, 3, 3);
+    text-decoration-thickness: .2rem; 
+    text-underline-offset: .5rem;
+}
+
+h3,
+h4 {
+    font-family: 'Britney', cursive;
+}
+
+p {
+    font-family: 'Pilcrow Rounded', sans-serif; 
 }
 
 .header { 
     grid-area: header;
-
 }
   
   .inter { 
-    grid-area: inter; 
-   
+    grid-area: inter;   
 }
   
   .tech { 
-    grid-area: tech; 
-   
+    grid-area: tech;
 }
   
   .assess { 
     grid-area: assess; 
-   
 }
   
   .pjt { 
-    grid-area: pjt;
+    grid-area: pjt; 
  }
 
  .footer { 
