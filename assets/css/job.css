@@ -139,4 +139,8 @@ h5 {
 
     }
 
+    .nav-links {
+        display: block;
+    }
+
 }
