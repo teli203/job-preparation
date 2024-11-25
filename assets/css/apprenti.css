@@ -89,6 +89,10 @@ a:hover {
     margin-bottom: .6rem;
  }
 
+ a:hover {
+    color:azure
+  }
+
 @media (max-width: 740px){
     .container {
         max-width: 50em;
