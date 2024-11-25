@@ -97,3 +97,19 @@ img {
     grid-area: footer;   
 }
   
+/* Media Query */
+
+@media (max-width: 600px) {
+    .container {  display: grid;
+        grid-template-columns: 1fr;
+        gap: 2em;
+        grid-auto-flow: row;
+        grid-template-areas:
+          "header"
+          "inter"
+          "tech"
+          "assess" 
+          "pjt"
+          "footer";
+      } 
+}
