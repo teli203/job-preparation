@@ -37,22 +37,6 @@ h1 {
   border-bottom: 2.5px solid rgb(74, 32, 68); 
 }
 
-.cssanimation, .cssanimation span {
-    animation-duration: 1s;
-    animation-fill-mode: both;
-}
-
-.cssanimation span { display: inline-block }
-
-.leFadeInBottom span { animation-name: leFadeInBottom }
-@keyframes leFadeInBottom {
-    from {
-        opacity: 0;
-        transform: translateY(100%);
-    }
-    to { opacity: 1 }
-}
-
 h2 {
     text-align: left;
     margin: 0;
@@ -76,7 +60,7 @@ h5 {
 }
 
 .btn {
-    display: inline;  /* rethink */
+    display: inline; 
     background-color: rgb(105, 87, 121);
     color: rgb(224, 221, 221);
     margin: .5rem;
@@ -112,7 +96,25 @@ h5 {
         font-weight: 425;
 }
 
+/* CSS ANIMATION FOR HEADER */
 
+.cssanimation, .cssanimation span {
+    animation-duration: 1s;
+    animation-fill-mode: both;
+}
+
+.cssanimation span { display: inline-block }
+
+.leFadeInBottom span { animation-name: leFadeInBottom }
+@keyframes leFadeInBottom {
+    from {
+        opacity: 0;
+        transform: translateY(100%);
+    }
+    to { opacity: 1 }
+}
+
+/* Media Query */
 
 @media (max-width: 600px) {
     h1 {
