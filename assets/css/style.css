@@ -106,6 +106,10 @@ body {
     cursor: pointer;
     background-color: rgb(225, 252, 224);
 }
+
+img {
+  max-height: 2.5rem;
+}
   
   .header { 
     grid-area: header; 
