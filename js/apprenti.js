@@ -57,3 +57,14 @@ function animateRandom() {
 function getRandomInt(min, max) {
     return Math.floor(Math.random() * (max - min + 1)) + min;
 }
+
+// UP ARROW SCROLL EVENT //
+
+const scrollImage = document.getElementById('scrollImage');
+
+scrollImage.addEventListener('click', () => {
+  window.scrollTo({
+    top: 0,
+    behavior: 'smooth'
+  });
+});
