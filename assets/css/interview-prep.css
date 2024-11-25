@@ -69,6 +69,10 @@ p {
     font-family: 'Pilcrow Rounded', sans-serif; 
 }
 
+img {
+    max-height: 2.5vh;
+}
+
 .header { 
     grid-area: header;
 }
