@@ -88,6 +88,11 @@ h5 {
     color: rgb(223, 2, 120);
  }
 
+ img {
+    max-height: 1.9rem;
+    margin-block: .8rem;
+ }
+
 .pgh_btm {
         white-space: pre-wrap; /* This CSS property respects line breaks (newlines) added in your content as is without the need for <br> or wrapping elements. */
         columns: 200px 2;
