@@ -52,9 +52,24 @@ body {
     align-self: center;
   }
 
-  span {
-    font-size: 4.5rem ;
-  }
+  .cssanimation, .cssanimation span {
+    animation-duration: 1s;
+    animation-fill-mode: both;
+    text-decoration: underline;
+    text-decoration-color: rgb(91, 124, 99);
+    text-underline-offset: .5rem;
+}
+
+.cssanimation span { display: inline-block }
+
+.leKickOutFront span { animation-name: leKickOutBehind; transform-origin: top }
+@keyframes leKickOutBehind {
+    40% { transform: rotate(-45deg) }
+    100% {
+        transform: rotate(0deg);
+        animation-timing-function: cubic-bezier(0,.9,.7,1.45)
+    }
+}
 
   .nav-links {
     display: flex;
