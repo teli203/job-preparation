@@ -53,6 +53,15 @@ body {
     padding: .9rem;
 }
 
+.Three {
+    text-align: justify;
+    margin: 1.5rem;
+}
+
+.BA {
+    text-align: center;
+}
+
 
 /* CSS ANIAMTION */
 .cssanimation, .cssanimation span {
@@ -101,6 +110,10 @@ h3,
 h4 {
     font-family: 'Britney', cursive;
     font-weight: 750;
+}
+
+h5 {
+    font-size: .9rem;
 }
 
 p {
