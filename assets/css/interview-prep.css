@@ -39,6 +39,12 @@ body {
     color:azure
   }
 
+.One {
+    text-align: left;
+    margin: 1.5rem;
+}
+
+
 /* CSS ANIAMTION */
 .cssanimation, .cssanimation span {
     animation-duration: 1s;
@@ -67,7 +73,8 @@ body {
     border-radius: 2.5rem;
 }
 
-h1 {
+h1,
+h2 {
     font-family: 'Tanker', sans-serif;
     text-decoration: underline;
     text-decoration-line: overline;
