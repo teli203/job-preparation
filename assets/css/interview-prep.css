@@ -44,6 +44,15 @@ body {
     margin: 1.5rem;
 }
 
+.Two {
+    text-align: right;
+    margin: 1.5rem;
+}
+
+.tech {
+    padding: .9rem;
+}
+
 
 /* CSS ANIAMTION */
 .cssanimation, .cssanimation span {
