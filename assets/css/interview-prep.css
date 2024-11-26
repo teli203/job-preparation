@@ -8,7 +8,7 @@ body {
 
 .container {  display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 0.5fr 1.5fr 1.1fr 1.4fr 0.5fr;
+    grid-template-rows: 0.1fr 1.fr 1fr 1fr 0.5fr;
     gap: 2em 2em;
     grid-auto-flow: row;
     grid-template-areas:
@@ -91,14 +91,31 @@ h3 {
 h3,
 h4 {
     font-family: 'Britney', cursive;
+    font-weight: 750;
 }
 
 p {
-    font-family: 'Pilcrow Rounded', sans-serif; 
+    font-family: 'Pilcrow Rounded', sans-serif;
+    font-weight: 800; 
+}
+
+q {
+    font-style: italic;
+    font-weight: 775;
 }
 
 img {
     max-height: 2.5vh;
+}
+
+details {
+    margin: 1.1rem;
+}
+
+summary {
+    font-family: 'Tanker', sans-serif;
+    font-size: 1rem;
+    color: rgb(101, 3, 3);
 }
 
 .header { 
