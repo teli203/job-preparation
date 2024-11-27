@@ -41,12 +41,12 @@ body {
 
 .One {
     text-align: left;
-    margin: 1.5rem;
+    margin: 1.3rem;
 }
 
 .Two {
     text-align: right;
-    margin: 1.5rem;
+    margin: 1.3rem;
 }
 
 .tech {
@@ -54,12 +54,17 @@ body {
 }
 
 .Three {
-    text-align: justify;
-    margin: 1.5rem;
+    text-align: left;
+    margin: 1.3rem;
 }
 
 .BA {
     text-align: center;
+}
+
+.Four {
+    text-align: right;
+    margin: 1.3rem;
 }
 
 
@@ -113,6 +118,7 @@ h4 {
 }
 
 h5 {
+    font-family: 'Tanker', sans-serif;
     font-size: .9rem;
 }
 
@@ -134,6 +140,9 @@ details {
     margin: 1.1rem;
 }
 
+.polish {
+    text-decoration: bullets;
+}
 summary {
     font-family: 'Tanker', sans-serif;
     font-size: 1rem;
@@ -179,4 +188,36 @@ summary {
           "pjt"
           "footer";
       } 
+}
+
+@media (max-width: 430px) {
+    .container {  
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 2em;
+        grid-auto-flow: row;
+        grid-template-areas:
+          "header"
+          "inter"
+          "tech"
+          "assess" 
+          "pjt"
+          "footer";
+      }
+
+    h1,
+    h2 {
+        font-size: 2rem;
+    }
+
+    .nav-links {
+        display: block;
+    }
+    .One,
+    .Two,
+    .Three,
+    .Four {
+        text-align: center;
+    }
+    
 }
