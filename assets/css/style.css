@@ -161,4 +161,9 @@ img {
       margin: .8em;
     }
   }
-  
+
+  @media (max-width: 380px) {
+    #bx_hr h1 {
+        font-size: 2.3rem;
+      }
+    }
