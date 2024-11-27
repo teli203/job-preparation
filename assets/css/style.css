@@ -27,7 +27,7 @@ body {
   #bx_lc, 
   #bx_ft {
     display: flex;
-    font-family: fantasy, sans-serif;
+    font-family: 'Papyrus', 'Brush Script MT', sans-serif;
     font-size: 1.2rem;
     font-stretch: semi-condensed;
     background: rgb(234, 231, 225);
