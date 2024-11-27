@@ -170,6 +170,39 @@ summary {
     grid-area: pjt; 
  }
 
+ /* styles.css */
+#projects {
+    font-family: 'Pilcrow Rounded', sans-serif;
+    margin: 2rem;
+  }
+  
+  .pjt-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+  }
+  
+  .pjt-table th,
+  .pjt td {
+    border: .2rem solid rgb(57, 4, 4);
+    padding: 5px;
+    text-align: left;
+  }
+  
+  .pjt-table th {
+    background-color: #f4f4f4;
+    font-weight: 700;
+  }
+  
+  .pjt-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  .pjt-table tr:hover {
+    background-color: #c3c2c2;
+  }
+  
+
  .footer { 
     grid-area: footer;   
 }
