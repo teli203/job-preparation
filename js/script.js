@@ -1,3 +1,5 @@
+// Animation Sequence //
+
 document.getElementById('learn-more').addEventListener('click', () => {
     window.location.href = './pages/interview-prep.html';
 });
@@ -9,8 +11,6 @@ document.getElementById('job-boards').addEventListener('click', () => {
 document.getElementById('apprenti').addEventListener('click', () => {
     window.location.href = './pages/apprenticeships.html';
 });
-
-// CSS ANIMATION //
 
 window.onload = function() {
     animateSequence();
