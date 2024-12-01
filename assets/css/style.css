@@ -52,25 +52,6 @@ body {
     align-self: center;
   }
 
-  .cssanimation, .cssanimation span {
-    animation-duration: 1s;
-    animation-fill-mode: both;
-    text-decoration: underline;
-    text-decoration-color: rgb(91, 124, 99);
-    text-underline-offset: .5rem;
-}
-
-.cssanimation span { display: inline-block }
-
-.leKickOutFront span { animation-name: leKickOutBehind; transform-origin: top }
-@keyframes leKickOutBehind {
-    40% { transform: rotate(-45deg) }
-    100% {
-        transform: rotate(0deg);
-        animation-timing-function: cubic-bezier(0,.9,.7,1.45)
-    }
-}
-
   .nav-links {
     display: flex;
     gap: 3rem;
@@ -110,14 +91,33 @@ body {
 img {
   max-height: 2.5rem;
 }
-  
-  .header { 
-    grid-area: header; 
+
+/* CSS Animation */
+
+.cssanimation, .cssanimation span {
+  animation-duration: 1s;
+  animation-fill-mode: both;
+  text-decoration: underline;
+  text-decoration-color: rgb(91, 124, 99);
+  text-underline-offset: .5rem;
 }
-  
-  .banner {
-    grid-area: banner;
+
+.cssanimation span { display: inline-block }
+
+.leKickOutFront span { animation-name: leKickOutBehind; transform-origin: top }
+@keyframes leKickOutBehind {
+  40% { transform: rotate(-45deg) }
+  100% {
+      transform: rotate(0deg);
+      animation-timing-function: cubic-bezier(0,.9,.7,1.45)
   }
+}
+
+/* Grid Layout Formtion */
+
+  .header { grid-area: header; }
+  
+  .banner { grid-area: banner; }
   
   .left-panel { grid-area: left-panel; }
   
