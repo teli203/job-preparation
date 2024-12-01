@@ -1,4 +1,5 @@
 // Animation for header h1 title 'Preparation' //
+
 window.onload = function() {
     animateSequence();
     animateRandom();

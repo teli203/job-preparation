@@ -1,3 +1,5 @@
+// Animation Sequence //
+
 document.getElementById('find').addEventListener('click', () => {
     window.location.href = 'https://www.findmyprofession.com/career-advice/best-job-search-sites/';
 });
@@ -5,8 +7,6 @@ document.getElementById('find').addEventListener('click', () => {
 document.getElementById('founder').addEventListener('click', () => {
     window.location.href = 'https://www.founderjar.com/best-job-search-sites/';
 });
-
-// CSS ANIMATION //
 
 window.onload = function() {
     animateSequence();
