@@ -150,27 +150,8 @@ summary {
     color: rgb(101, 3, 3);
 }
 
-.header { 
-    grid-area: header;
-}
-  
-  .inter { 
-    grid-area: inter;   
-}
-  
-  .tech { 
-    grid-area: tech;
-}
-  
-  .assess { 
-    grid-area: assess; 
-}
-  
-  .pjt { 
-    grid-area: pjt; 
- }
+/* Style for the Table in PJT Section  */
 
- /* styles.css */
 #projects {
     font-family: 'Pilcrow Rounded', sans-serif;
     margin: 2rem;
@@ -201,7 +182,28 @@ summary {
   .pjt-table tr:hover {
     background-color: #c3c2c2;
   }
+ 
+/* Grid Layout Formtion */
+
+  .header { 
+    grid-area: header;
+}
   
+  .inter { 
+    grid-area: inter;   
+}
+  
+  .tech { 
+    grid-area: tech;
+}
+  
+  .assess { 
+    grid-area: assess; 
+}
+  
+  .pjt { 
+    grid-area: pjt; 
+ }
 
  .footer { 
     grid-area: footer;   
