@@ -68,7 +68,8 @@ body {
 }
 
 
-/* CSS ANIAMTION */
+/* CSS ANIAMTION SEQUENCE */
+
 .cssanimation, .cssanimation span {
     animation-duration: 1s;
     animation-fill-mode: both;
@@ -150,7 +151,7 @@ summary {
     color: rgb(101, 3, 3);
 }
 
-/* Style for the Table in PJT Section  */
+/* Style for the Table in PJT 'More' Section  */
 
 #projects {
     font-family: 'Pilcrow Rounded', sans-serif;
