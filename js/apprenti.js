@@ -1,3 +1,5 @@
+//Animation Sequence //
+
 window.onload = function() {
     animateSequence();
     animateRandom();
