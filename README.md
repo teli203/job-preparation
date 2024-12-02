@@ -24,6 +24,8 @@ Personal Branding: Highlight strengths and cultural fit. Develop a consistent pr
 
 <img width="1432" alt="job-board" src="https://github.com/user-attachments/assets/f47a4c49-2496-410d-97bc-423e03b97115">
 
+<img width="1432" alt="appren" src="https://github.com/user-attachments/assets/bd68c166-519a-4b49-b67f-26770d0fdbb8">
+
 
 Explore the Website
 Visit Job Preparation [Job Preparation](https://job-preparation.netlify.app) for detailed insights and resources.
