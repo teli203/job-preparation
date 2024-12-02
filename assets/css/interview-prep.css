@@ -67,6 +67,14 @@ body {
     margin: 1.3rem;
 }
 
+ol {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: .7rem;
+    columns: 200px 2;
+    column-gap: 35px;
+    text-align: left;    
+}
+
 
 /* CSS ANIAMTION SEQUENCE */
 
