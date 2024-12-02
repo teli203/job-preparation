@@ -24,7 +24,17 @@ Personal Branding: Highlight strengths and cultural fit. Develop a consistent pr
 
 <img width="1432" alt="job-board" src="https://github.com/user-attachments/assets/f47a4c49-2496-410d-97bc-423e03b97115">
 
+# Job Boards
+Job boards are essential tools for discovering career opportunities tailored to your skills and interests. Platforms like LinkedIn, Indeed, and Glassdoor provide access to roles across industries, including remote and freelance opportunities. Utilize advanced search filters, set up alerts for targeted job postings, and research company profiles to ensure alignment with your goals. Networking through these boards can also lead to referrals or direct connections with recruiters.
+
 <img width="1432" alt="appren" src="https://github.com/user-attachments/assets/bd68c166-519a-4b49-b67f-26770d0fdbb8">
+
+#
+
+# Apprenticeships
+Apprenticeships offer hands-on learning and mentorship, bridging the gap between education and industry experience. They provide structured training, often paid, to help individuals develop practical skills in real-world environments. Explore apprenticeship programs on specialized platforms like Apprenticeship.gov or company-specific initiatives. Tailor your applications to highlight eagerness to learn and relevant foundational skills.
+
+
 
 
 Explore the Website
