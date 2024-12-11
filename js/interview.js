@@ -1,4 +1,16 @@
-// Animation for header h1 title 'Preparation' //
+// BTN actions for pages htmls & Animation for header h1 title 'Preparation' //
+
+document.getElementById('home').addEventListener('click', () => {
+    window.location.href = '../index.html';
+});
+
+document.getElementById('job-boards').addEventListener('click', () => {
+    window.location.href = '../pages/job-boards.html';
+});
+
+document.getElementById('apprenti').addEventListener('click', () => {
+    window.location.href = '../pages/apprenticeships.html';
+});
 
 window.onload = function() {
     animateSequence();
