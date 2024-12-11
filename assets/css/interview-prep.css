@@ -191,6 +191,23 @@ summary {
   .pjt-table tr:hover {
     background-color: #c3c2c2;
   }
+
+  .btn {
+    font-weight: 500;
+    background-color: rgb(108, 76, 76);
+    padding: .5rem;
+    margin-bottom: .3rem;
+    min-height: 5vh;
+    max-width: 8rem;
+    color: rgb(246, 227, 227);
+    border: 3px solid rgb(57, 4, 4);
+    border-radius: 3.4px; 
+  }
+
+  button:hover {
+    cursor: pointer;
+    background-color: rgb(44, 1, 1);
+}
  
 /* Grid Layout Formtion */
 
