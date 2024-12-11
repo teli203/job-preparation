@@ -1,4 +1,4 @@
-// Animation Sequence //
+// BTN actions for pages html & Animation Sequence //
 
 document.getElementById('learn-more').addEventListener('click', () => {
     window.location.href = './pages/interview-prep.html';
