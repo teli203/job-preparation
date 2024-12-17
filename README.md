@@ -6,6 +6,8 @@
 
 <img width="2001" alt="jb-wire-mockup" src="https://github.com/user-attachments/assets/f6688440-501e-4ca1-aa8d-df91b3c164d8" />
 
+[jb-wire-mockup-2.pdf](https://github.com/user-attachments/files/18170971/jb-wire-mockup-2.pdf)
+
 
 <img width="1432" alt="interview-prep-img" src="https://github.com/user-attachments/assets/d4e7bcd6-226d-49c8-a395-ec7c79033ad9">
 #
