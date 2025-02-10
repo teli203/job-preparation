@@ -1,91 +1,91 @@
 body {
-   background: rgb(1, 23, 13);
-   color: rgb(3, 42, 25);
-   margin: 1em;
-   padding: .5em;
+  background: rgb(1, 23, 13);
+  color: rgb(3, 42, 25);
+  margin: 1em;
+  padding: 0.5em;
 }
 
-.container { 
-    display: grid;
-    grid-template-columns: 0.6fr 1.8fr 0.6fr;
-    grid-template-rows: 0.3fr 0.6fr 2.9fr 0.6fr 0.3fr;
-    gap: 1.5em 1.5em;
-    grid-auto-flow: row;
-    grid-template-areas:
-      "header header header"
-      "left-panel banner right-panel"
-      "left-panel main-content right-panel"
-      "left-panel low-content right-panel"
-      "footer footer footer";
-  }
+.container {
+  display: grid;
+  grid-template-columns: 0.6fr 1.8fr 0.6fr;
+  grid-template-rows: 0.3fr 0.6fr 2.9fr 0.6fr 0.3fr;
+  gap: 1.5em 1.5em;
+  grid-auto-flow: row;
+  grid-template-areas:
+    'header header header'
+    'left-panel banner right-panel'
+    'left-panel main-content right-panel'
+    'left-panel low-content right-panel'
+    'footer footer footer';
+}
 
-  #bx_hr,
-  #bx_br, 
-  #bx_lp, 
-  #bx_rp, 
-  #bx_mc,
-  #bx_lc, 
-  #bx_ft {
-    display: flex;
-    font-family: 'Papyrus', 'Brush Script MT', sans-serif;
-    font-size: 1.2rem;
-    font-stretch: semi-condensed;
-    background: rgb(234, 231, 225);
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding: 8px;
-    border: 4.5px solid rgb(91, 124, 99);
-  }
+#bx_hr,
+#bx_br,
+#bx_lp,
+#bx_rp,
+#bx_mc,
+#bx_lc,
+#bx_ft {
+  display: flex;
+  font-family: 'Papyrus', 'Brush Script MT', sans-serif;
+  font-size: 1.2rem;
+  font-stretch: semi-condensed;
+  background: rgb(234, 231, 225);
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 8px;
+  border: 4.5px solid rgb(91, 124, 99);
+}
 
-  #bx_hr h1 {
-    font-size: 3.5rem;
-    font-weight: 600;
-  }
+#bx_hr h1 {
+  font-size: 3.5rem;
+  font-weight: 600;
+}
 
-  h1 {
-    text-decoration: underline;
-    text-decoration-color: rgb(91, 124, 99);
-    text-underline-offset: .5rem;
-    margin: 0; 
-    padding-bottom: 10px; 
-    align-self: center;
-  }
+h1 {
+  text-decoration: underline;
+  text-decoration-color: rgb(91, 124, 99);
+  text-underline-offset: 0.5rem;
+  margin: 0;
+  padding-bottom: 10px;
+  align-self: center;
+}
 
-  .nav-links {
-    display: flex;
-    gap: 3rem;
-    list-style: none;
-    justify-content: space-evenly;
-    align-items: center;
-    text-underline-offset: .2rem;
-    min-height: 8vh;
-    padding: .9rem;
-  }
+.nav-links {
+  display: flex;
+  gap: 3rem;
+  list-style: none;
+  justify-content: space-evenly;
+  align-items: center;
+  text-underline-offset: 0.2rem;
+  min-height: 8vh;
+  padding: 0.9rem;
+}
 
-  a {
-    color: rgb(2, 69, 11);
-  }
+a {
+  color: rgb(2, 69, 11);
+}
 
-  a:hover {
-    color:rgb(97, 156, 108)
-  }
+a:hover {
+  color: rgb(97, 156, 108);
+}
 
-  .btn {
-    font-weight: 500;
-    background-color: rgb(147, 164, 150);
-    padding: .5rem;
-    margin-bottom: .3rem;
-    min-height: 5vh;
-    max-width: 8rem;
-    color: rgb(3, 42, 25);
-    border: 3px solid rgb(3, 42, 25);
-    border-radius: 3.4px; 
-  }
+.btn {
+  font-weight: 500;
+  background-color: rgb(147, 164, 150);
+  padding: 0.5rem;
+  margin-bottom: 0.3rem;
+  min-height: 5vh;
+  max-width: 8rem;
+  color: rgb(3, 42, 25);
+  border: 3px solid rgb(3, 42, 25);
+  border-radius: 3.4px;
+}
 
-  button:hover {
-    cursor: pointer;
-    background-color: rgb(225, 252, 224);
+button:hover {
+  cursor: pointer;
+  background-color: rgb(225, 252, 224);
 }
 
 img {
@@ -94,76 +94,97 @@ img {
 
 /* CSS Animation */
 
-.cssanimation, .cssanimation span {
+.cssanimation,
+.cssanimation span {
   animation-duration: 1s;
   animation-fill-mode: both;
   text-decoration: underline;
   text-decoration-color: rgb(91, 124, 99);
-  text-underline-offset: .5rem;
+  text-underline-offset: 0.5rem;
 }
 
-.cssanimation span { display: inline-block }
+.cssanimation span {
+  display: inline-block;
+}
 
-.leKickOutFront span { animation-name: leKickOutBehind; transform-origin: top }
+.leKickOutFront span {
+  animation-name: leKickOutBehind;
+  transform-origin: top;
+}
 @keyframes leKickOutBehind {
-  40% { transform: rotate(-45deg) }
+  40% {
+    transform: rotate(-45deg);
+  }
   100% {
-      transform: rotate(0deg);
-      animation-timing-function: cubic-bezier(0,.9,.7,1.45)
+    transform: rotate(0deg);
+    animation-timing-function: cubic-bezier(0, 0.9, 0.7, 1.45);
   }
 }
 
 /* Grid Layout Formtion */
 
-  .header { grid-area: header; }
-  
-  .banner { grid-area: banner; }
-  
-  .left-panel { grid-area: left-panel; }
-  
-  .right-panel { grid-area: right-panel; }
-  
-  .main-content { grid-area: main-content; }
-  
-  .low-content { grid-area: low-content; }
-  
-  .footer { grid-area: footer; }
+.header {
+  grid-area: header;
+}
 
+.banner {
+  grid-area: banner;
+}
 
-  /* Media Queries */
+.left-panel {
+  grid-area: left-panel;
+}
 
-  @media (max-width: 768px) {
-    .container { 
-      display: flexbox;
-      grid-template-columns: 1fr;
-      grid-template-rows: 1fr;
-      gap: 1rem;
-      margin: .7rem;
-      grid-auto-flow: row;
-      grid-template-areas:
-        "header"
-        "banner"
-        "left-panel"
-        "main-content" 
-        "right-panel"
-        "low-content "
-        "footer";
-    }
+.right-panel {
+  grid-area: right-panel;
+}
 
-    .nav-links {
-        display: block;
-        text-align: center;
-        font-size: 1.2rem;
-        margin: 2.2rem;
-    }
+.main-content {
+  grid-area: main-content;
+}
 
-    .btn {
-      margin: .8em;
-    }
+.low-content {
+  grid-area: low-content;
+}
+
+.footer {
+  grid-area: footer;
+}
+
+/* Media Queries */
+
+@media (max-width: 768px) {
+  .container {
+    display: flexbox;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    gap: 1rem;
+    margin: 0.7rem;
+    grid-auto-flow: row;
+    grid-template-areas:
+      'header'
+      'banner'
+      'left-panel'
+      'main-content'
+      'right-panel'
+      'low-content '
+      'footer';
   }
 
-  @media (max-width: 380px) {
-    #bx_hr h1 {
-        font-size: 2.3rem;
-      }
-    }
+  .nav-links {
+    display: block;
+    text-align: center;
+    font-size: 1.2rem;
+    margin: 2.2rem;
+  }
+
+  .btn {
+    margin: 0.8em;
+  }
+}
+
+@media (max-width: 380px) {
+  #bx_hr h1 {
+    font-size: 2.3rem;
+  }
+}

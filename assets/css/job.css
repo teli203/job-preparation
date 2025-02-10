@@ -1,159 +1,162 @@
 body {
-background-color: rgba(23, 23, 23, 0.78);
-margin: 1rem;
-padding: 3rem;
-border-radius: 10px;
-border: 15px double rgba(248, 212, 246, 0.66);
-box-shadow: 0 6px 0 6px rgb(32, 32, 32);
-filter:drop-shadow(10px 7px 10px rgb(250, 215, 247));
+  background-color: rgba(23, 23, 23, 0.78);
+  margin: 1rem;
+  padding: 3rem;
+  border-radius: 10px;
+  border: 15px double rgba(248, 212, 246, 0.66);
+  box-shadow: 0 6px 0 6px rgb(32, 32, 32);
+  filter: drop-shadow(10px 7px 10px rgb(250, 215, 247));
 }
 
 .title-header,
 .job-board {
-margin-block: .9rem;
-background: rgba(249, 200, 255, 0.5);
-box-shadow: 0 10px 32px 0 rgba(174, 179, 250, 0.727);
-backdrop-filter: blur(4px);
--webkit-backdrop-filter: blur(2px);
-border-radius: 10px;
-border: 5px double rgba(248, 212, 246, 0.66);
+  margin-block: 0.9rem;
+  background: rgba(249, 200, 255, 0.5);
+  box-shadow: 0 10px 32px 0 rgba(174, 179, 250, 0.727);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(2px);
+  border-radius: 10px;
+  border: 5px double rgba(248, 212, 246, 0.66);
 }
 
 .job-board {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 1rem;
-    margin-block: 1.5rem;
-    padding: 2rem;
-    text-align: left;
-    align-items: center;
-    justify-content: center;
-    
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 1rem;
+  margin-block: 1.5rem;
+  padding: 2rem;
+  text-align: left;
+  align-items: center;
+  justify-content: center;
 }
 
 h1 {
   font-size: 3rem;
   text-align: center;
   color: rgb(46, 20, 42);
-  border-bottom: 2.5px solid rgb(74, 32, 68); 
+  border-bottom: 2.5px solid rgb(74, 32, 68);
 }
 
 h2 {
-    text-align: left;
-    margin: 0;
-    font-size: 1.3rem;
-    border: 0 solid transparent;
-    filter: drop-shadow(5px 5px 5px rgb(106, 43, 116));
-    border-bottom: 2.5px solid rgb(74, 32, 68);
+  text-align: left;
+  margin: 0;
+  font-size: 1.3rem;
+  border: 0 solid transparent;
+  filter: drop-shadow(5px 5px 5px rgb(106, 43, 116));
+  border-bottom: 2.5px solid rgb(74, 32, 68);
 }
 
 h5 {
-    text-decoration: underline;
-    font-size: 1rem;
+  text-decoration: underline;
+  font-size: 1rem;
 }
 
-
 .hills {
-    background-color: rgb(46, 20, 42);
-    border-radius: 10px;
-    padding: .2rem;
-    border: 5px double rgba(248, 212, 246, 0.66);
+  background-color: rgb(46, 20, 42);
+  border-radius: 10px;
+  padding: 0.2rem;
+  border: 5px double rgba(248, 212, 246, 0.66);
 }
 
 .btn {
-    display: inline; 
-    background-color: rgb(105, 87, 121);
-    color: rgb(224, 221, 221);
-    margin: .5rem;
-    padding: .3rem;
-    border: 5.5px double rgb(46, 20, 42);
-    border-radius: .3rem;
+  display: inline;
+  background-color: rgb(105, 87, 121);
+  color: rgb(224, 221, 221);
+  margin: 0.5rem;
+  padding: 0.3rem;
+  border: 5.5px double rgb(46, 20, 42);
+  border-radius: 0.3rem;
 }
 
 .nav-links {
-    display: flex;
-    gap: 1rem;
-    list-style: none;
-    font-size: 1rem;
-    text-align: center;
-    text-underline-offset: .1rem;
-    justify-content: space-evenly;   
-    min-height: 8vh;
-    padding: 10px;
- }
+  display: flex;
+  gap: 1rem;
+  list-style: none;
+  font-size: 1rem;
+  text-align: center;
+  text-underline-offset: 0.1rem;
+  justify-content: space-evenly;
+  min-height: 8vh;
+  padding: 10px;
+}
 
- a {
-    color: rgb(70, 12, 61);
- }
+a {
+  color: rgb(70, 12, 61);
+}
 
- a:hover {
-    color: rgb(223, 2, 120);
- }
+a:hover {
+  color: rgb(223, 2, 120);
+}
 
- #jb {
-    display: block;
-    font-size: 1.2rem;
-    text-align: center;
-    margin-bottom: 1rem;
- }
+#jb {
+  display: block;
+  font-size: 1.2rem;
+  text-align: center;
+  margin-bottom: 1rem;
+}
 
- img {
-    max-height: 1.9rem;
-    margin-block: .8rem;
- }
+img {
+  max-height: 1.9rem;
+  margin-block: 0.8rem;
+}
 
 .pgh_btm {
-        white-space: pre-wrap; /* This CSS property respects line breaks (newlines) added in your content as is without the need for <br> or wrapping elements. */
-        columns: 200px 2;
-        column-gap: 30px;
-        padding: 25px;
-        font-weight: 425;
+  white-space: pre-wrap; /* This CSS property respects line breaks (newlines) added in your content as is without the need for <br> or wrapping elements. */
+  columns: 200px 2;
+  column-gap: 30px;
+  padding: 25px;
+  font-weight: 425;
 }
 
 /* CSS ANIMATION FOR HEADER */
 
-.cssanimation, .cssanimation span {
-    animation-duration: 1s;
-    animation-fill-mode: both;
+.cssanimation,
+.cssanimation span {
+  animation-duration: 1s;
+  animation-fill-mode: both;
 }
 
-.cssanimation span { display: inline-block }
+.cssanimation span {
+  display: inline-block;
+}
 
-.leFadeInBottom span { animation-name: leFadeInBottom }
+.leFadeInBottom span {
+  animation-name: leFadeInBottom;
+}
 @keyframes leFadeInBottom {
-    from {
-        opacity: 0;
-        transform: translateY(100%);
-    }
-    to { opacity: 1 }
+  from {
+    opacity: 0;
+    transform: translateY(100%);
+  }
+  to {
+    opacity: 1;
+  }
 }
 
 /* Media Query */
 
 @media (max-width: 600px) {
-    h1 {
-        font-size: 2rem;
-    }
+  h1 {
+    font-size: 2rem;
+  }
 
-    h2 {
-        font-size: 1rem;
-    }
+  h2 {
+    font-size: 1rem;
+  }
 
-    h5 {
-        font-size: .9rem;
-    }
+  h5 {
+    font-size: 0.9rem;
+  }
 
-    .pgh,
-    .pgh_btm {
-        font-size: .8rem;
-    }
+  .pgh,
+  .pgh_btm {
+    font-size: 0.8rem;
+  }
 
-    .btn {
-        display: flex;
+  .btn {
+    display: flex;
+  }
 
-    }
-
-    .nav-links {
-        display: block;
-    }
-
+  .nav-links {
+    display: block;
+  }
 }

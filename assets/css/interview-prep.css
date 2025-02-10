@@ -1,285 +1,304 @@
 body {
-    background-color:rgb(2,0,36);
-    background: radial-gradient(circle, rgb(192, 191, 191) 0%, rgb(253, 252, 253) 42%, rgb(87, 87, 87) 100%);
-    text-align: center;
-    margin: 1rem;
+  background-color: rgb(2, 0, 36);
+  background: radial-gradient(
+    circle,
+    rgb(192, 191, 191) 0%,
+    rgb(253, 252, 253) 42%,
+    rgb(87, 87, 87) 100%
+  );
+  text-align: center;
+  margin: 1rem;
+}
 
-} 
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 0.1fr 1fr 1fr 1fr 0.5fr;
+  gap: 2em 2em;
+  grid-auto-flow: row;
+  grid-template-areas:
+    'header header'
+    'inter tech'
+    'inter tech'
+    'assess pjt'
+    'footer footer';
+}
 
-.container {  display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 0.1fr 1.fr 1fr 1fr 0.5fr;
-    gap: 2em 2em;
-    grid-auto-flow: row;
-    grid-template-areas:
-      "header header"
-      "inter tech"
-      "inter tech"
-      "assess pjt"
-      "footer footer";
-  }
+.nav-links {
+  display: flex;
+  gap: 2rem;
+  list-style: none;
+  justify-content: space-evenly;
+  align-items: center;
+  text-underline-offset: 0.2rem;
+  max-height: 11vh;
+  padding: 0.9rem;
+}
 
-  .nav-links {
-    display: flex;
-    gap: 2rem;
-    list-style: none;
-    justify-content: space-evenly;
-    align-items: center;
-    text-underline-offset: .2rem;
-    max-height: 11vh;
-    padding: .9rem;
-  }
+a {
+  font-family: 'Pilcrow Rounded', sans-serif;
+  color: rgb(54, 1, 1);
+}
 
-  a {
-    font-family: 'Pilcrow Rounded', sans-serif;
-    color: rgb(54, 1, 1);
-  }
-
-  a:hover {
-    color:rgb(180, 124, 2)
-  }
+a:hover {
+  color: rgb(180, 124, 2);
+}
 
 .One {
-    text-align: left;
-    margin: 1.3rem;
+  text-align: left;
+  margin: 1.3rem;
 }
 
 .Two {
-    text-align: right;
-    margin: 1.3rem;
+  text-align: right;
+  margin: 1.3rem;
 }
 
 .tech {
-    padding: .9rem;
+  padding: 0.9rem;
 }
 
 .Three {
-    text-align: left;
-    margin: 1.3rem;
+  text-align: left;
+  margin: 1.3rem;
 }
 
 .BA {
-    text-align: center;
+  text-align: center;
 }
 
 .Four {
-    text-align: right;
-    margin: 1.3rem;
+  text-align: right;
+  margin: 1.3rem;
 }
 
 ol {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: .7rem;
-    columns: 200px 2;
-    column-gap: 35px;
-    text-align: left;    
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 0.7rem;
+  columns: 200px 2;
+  column-gap: 35px;
+  text-align: left;
 }
-
 
 /* CSS ANIAMTION SEQUENCE */
 
-.cssanimation, .cssanimation span {
-    animation-duration: 1s;
-    animation-fill-mode: both;
+.cssanimation,
+.cssanimation span {
+  animation-duration: 1s;
+  animation-fill-mode: both;
 }
 
-.cssanimation span { display: inline-block }
+.cssanimation span {
+  display: inline-block;
+}
 
-.pepe { animation-name: pepe; animation-iteration-count: infinite }
+.pepe {
+  animation-name: pepe;
+  animation-iteration-count: infinite;
+}
 @keyframes pepe {
-    from, 33%, 66%, to { transform: rotate(4deg) }
-    16%, 50%, 83% { transform: rotate(-4deg) }
+  from,
+  33%,
+  66%,
+  to {
+    transform: rotate(4deg);
+  }
+  16%,
+  50%,
+  83% {
+    transform: rotate(-4deg);
+  }
 }
 
 .inter,
 .tech,
 .assess,
 .pjt {
-    border: .4rem solid rgb(57, 4, 4);
-    border-radius: 3rem; 
+  border: 0.4rem solid rgb(57, 4, 4);
+  border-radius: 3rem;
 }
 
 .header,
-.footer { 
-    border: .4rem solid rgb(57, 4, 4); 
-    border-radius: 2.5rem;
+.footer {
+  border: 0.4rem solid rgb(57, 4, 4);
+  border-radius: 2.5rem;
 }
 
 h1,
 h2 {
-    font-family: 'Tanker', sans-serif;
-    text-decoration: underline;
-    text-decoration-line: overline;
-    text-decoration-color: rgb(101, 3, 3); 
+  font-family: 'Tanker', sans-serif;
+  text-decoration: underline;
+  text-decoration-line: overline;
+  text-decoration-color: rgb(101, 3, 3);
 }
 
 h3 {
-    text-decoration: underline;
-    text-decoration-color: rgb(101, 3, 3);
-    text-decoration-thickness: .2rem; 
-    text-underline-offset: .5rem;
+  text-decoration: underline;
+  text-decoration-color: rgb(101, 3, 3);
+  text-decoration-thickness: 0.2rem;
+  text-underline-offset: 0.5rem;
 }
 
 h3,
 h4 {
-    font-family: 'Britney', cursive;
-    font-weight: 750;
+  font-family: 'Britney', cursive;
+  font-weight: 750;
 }
 
 h5 {
-    font-family: 'Tanker', sans-serif;
-    font-size: .9rem;
+  font-family: 'Tanker', sans-serif;
+  font-size: 0.9rem;
 }
 
 p {
-    font-family: 'Pilcrow Rounded', sans-serif;
-    font-weight: 800; 
+  font-family: 'Pilcrow Rounded', sans-serif;
+  font-weight: 800;
 }
 
 q {
-    font-style: italic;
-    font-weight: 775;
+  font-style: italic;
+  font-weight: 775;
 }
 
 img {
-    max-height: 2.5vh;
+  max-height: 2.5vh;
 }
 
 details {
-    text-align: left;
-    margin: 1.1rem;
+  text-align: left;
+  margin: 1.1rem;
 }
 
 .polish {
-    text-decoration: bullets;
+  text-decoration: bullets;
 }
 summary {
-    font-family: 'Tanker', sans-serif;
-    font-size: 1rem;
-    color: rgb(101, 3, 3);
+  font-family: 'Tanker', sans-serif;
+  font-size: 1rem;
+  color: rgb(101, 3, 3);
 }
 
 /* Style for the Table in PJT 'More' Section  */
 
 #projects {
-    font-family: 'Pilcrow Rounded', sans-serif;
-    margin: 2rem;
-  }
-  
-  .pjt-table {
-    width: 100%;
-    border-collapse: collapse;
-    margin: 20px 0;
-  }
-  
-  .pjt-table th,
-  .pjt td {
-    border: .2rem solid rgb(57, 4, 4);
-    padding: 5px;
-    text-align: left;
-  }
-  
-  .pjt-table th {
-    background-color: #f4f4f4;
-    font-weight: 700;
-  }
-  
-  .pjt-table tr:nth-child(even) {
-    background-color: #f9f9f9;
-  }
-  
-  .pjt-table tr:hover {
-    background-color: #c3c2c2;
-  }
-
-  .btn {
-    font-weight: 500;
-    background-color: rgb(108, 76, 76);
-    padding: .5rem;
-    margin-bottom: .3rem;
-    min-height: 5vh;
-    max-width: 8rem;
-    color: rgb(246, 227, 227);
-    border: 3px solid rgb(57, 4, 4);
-    border-radius: 3.4px; 
-  }
-
-  button:hover {
-    cursor: pointer;
-    background-color: rgb(44, 1, 1);
+  font-family: 'Pilcrow Rounded', sans-serif;
+  margin: 2rem;
 }
- 
+
+.pjt-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+}
+
+.pjt-table th,
+.pjt td {
+  border: 0.2rem solid rgb(57, 4, 4);
+  padding: 5px;
+  text-align: left;
+}
+
+.pjt-table th {
+  background-color: #f4f4f4;
+  font-weight: 700;
+}
+
+.pjt-table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.pjt-table tr:hover {
+  background-color: #c3c2c2;
+}
+
+.btn {
+  font-weight: 500;
+  background-color: rgb(108, 76, 76);
+  padding: 0.5rem;
+  margin-bottom: 0.3rem;
+  min-height: 5vh;
+  max-width: 8rem;
+  color: rgb(246, 227, 227);
+  border: 3px solid rgb(57, 4, 4);
+  border-radius: 3.4px;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: rgb(44, 1, 1);
+}
+
 /* Grid Layout Formtion */
 
-  .header { 
-    grid-area: header;
+.header {
+  grid-area: header;
 }
-  
-  .inter { 
-    grid-area: inter;   
-}
-  
-  .tech { 
-    grid-area: tech;
-}
-  
-  .assess { 
-    grid-area: assess; 
-}
-  
-  .pjt { 
-    grid-area: pjt; 
- }
 
- .footer { 
-    grid-area: footer;   
+.inter {
+  grid-area: inter;
 }
-  
+
+.tech {
+  grid-area: tech;
+}
+
+.assess {
+  grid-area: assess;
+}
+
+.pjt {
+  grid-area: pjt;
+}
+
+.footer {
+  grid-area: footer;
+}
+
 /* Media Query */
 
 @media (max-width: 600px) {
-    .container {  display: grid;
-        grid-template-columns: 1fr;
-        gap: 2em;
-        grid-auto-flow: row;
-        grid-template-areas:
-          "header"
-          "inter"
-          "tech"
-          "assess" 
-          "pjt"
-          "footer";
-      } 
+  .container {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2em;
+    grid-auto-flow: row;
+    grid-template-areas:
+      'header'
+      'inter'
+      'tech'
+      'assess'
+      'pjt'
+      'footer';
+  }
 }
 
 @media (max-width: 430px) {
-    .container {  
-        display: grid;
-        grid-template-columns: 1fr;
-        gap: 2em;
-        grid-auto-flow: row;
-        grid-template-areas:
-          "header"
-          "inter"
-          "tech"
-          "assess" 
-          "pjt"
-          "footer";
-      }
+  .container {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2em;
+    grid-auto-flow: row;
+    grid-template-areas:
+      'header'
+      'inter'
+      'tech'
+      'assess'
+      'pjt'
+      'footer';
+  }
 
-    h1,
-    h2 {
-        font-size: 2rem;
-    }
+  h1,
+  h2 {
+    font-size: 2rem;
+  }
 
-    .nav-links {
-        display: block;
-    }
-    .One,
-    .Two,
-    .Three,
-    .Four {
-        text-align: center;
-    }
-    
+  .nav-links {
+    display: block;
+  }
+  .One,
+  .Two,
+  .Three,
+  .Four {
+    text-align: center;
+  }
 }

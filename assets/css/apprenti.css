@@ -1,136 +1,141 @@
 body {
-    background-color: rgb(43, 44, 44);
-    color: rgb(240, 248, 255);
-    margin: 1.5rem;
-    padding: 1.5rem;
-    border: 5px dotted rgb(240, 248, 255);
+  background-color: rgb(43, 44, 44);
+  color: rgb(240, 248, 255);
+  margin: 1.5rem;
+  padding: 1.5rem;
+  border: 5px dotted rgb(240, 248, 255);
 }
 
 .container {
-    font-family: Georgia, Times, 'Times New Roman', serif;
-    text-align: center;
+  font-family: Georgia, Times, 'Times New Roman', serif;
+  text-align: center;
 }
 
 h1 {
-    font-size: 2rem;
-    text-decoration: underline;
-    text-underline-offset: .2rem;
-    color: rgb(43, 43, 43);
-    justify-content: center;
-    min-height: 6vh;
-    padding: 9px;
-    border: .5px solid rgb(249, 244, 209);
-    border-radius: .5rem;
+  font-size: 2rem;
+  text-decoration: underline;
+  text-underline-offset: 0.2rem;
+  color: rgb(43, 43, 43);
+  justify-content: center;
+  min-height: 6vh;
+  padding: 9px;
+  border: 0.5px solid rgb(249, 244, 209);
+  border-radius: 0.5rem;
 }
 
 .gradient-text {
-    background: linear-gradient(to right, #fcd3e4, #e479a4,#79d2e4, #4a0d29); 
+  background: linear-gradient(to right, #fcd3e4, #e479a4, #79d2e4, #4a0d29);
 }
 
 h3 {
-    text-decoration: underline;
-    text-decoration-color: rgb(225, 89, 112);
-    text-underline-offset: .3rem;
-    margin-top: 5.5rem;
-    color: aqua;
+  text-decoration: underline;
+  text-decoration-color: rgb(225, 89, 112);
+  text-underline-offset: 0.3rem;
+  margin-top: 5.5rem;
+  color: aqua;
 }
 
 h4 {
-    color: rgb(226, 187, 236);
+  color: rgb(226, 187, 236);
 }
 
 h5 {
-    color: rgb(100, 246, 197);
+  color: rgb(100, 246, 197);
 }
 
 a {
-    color: rgb(158, 168, 177);
-    text-underline-offset: .2rem;
+  color: rgb(158, 168, 177);
+  text-underline-offset: 0.2rem;
 }
 
 a:hover {
-    color: rgb(252, 251, 248);
+  color: rgb(252, 251, 248);
 }
 
 .gt {
-    color:#3d0b22
+  color: #3d0b22;
 }
 
 .nav-links {
-    display: flex;
-    gap: 1.5rem;
-    list-style: none;
-    font-size: 1.1rem;
-    justify-content: space-evenly;
-    align-items: center;
-    max-height: 14vh;
-    padding: 15px;
-    border: .5px solid rgb(249, 244, 209);
-    border-radius: .2rem;
- }
-
- .nav-links li {
-    margin-bottom: .6rem;
- }
-
- a:hover {
-    color:azure
-  }
-
-  img {
-    max-height: 1.7rem;
-    margin-bottom: .5rem;
- }
-
- /* CSS Animation Sequence */
-
- .cssanimation, .cssanimation span {
-    animation-duration: 1s;
-    animation-fill-mode: both;
+  display: flex;
+  gap: 1.5rem;
+  list-style: none;
+  font-size: 1.1rem;
+  justify-content: space-evenly;
+  align-items: center;
+  max-height: 14vh;
+  padding: 15px;
+  border: 0.5px solid rgb(249, 244, 209);
+  border-radius: 0.2rem;
 }
 
-.cssanimation span { display: inline-block }
+.nav-links li {
+  margin-bottom: 0.6rem;
+}
 
-.leFadeInLeft span { animation-name: leFadeInLeft }
+a:hover {
+  color: azure;
+}
+
+img {
+  max-height: 1.7rem;
+  margin-bottom: 0.5rem;
+}
+
+/* CSS Animation Sequence */
+
+.cssanimation,
+.cssanimation span {
+  animation-duration: 1s;
+  animation-fill-mode: both;
+}
+
+.cssanimation span {
+  display: inline-block;
+}
+
+.leFadeInLeft span {
+  animation-name: leFadeInLeft;
+}
 @keyframes leFadeInLeft {
-    from {
-        opacity: 0;
-        transform: translateX(-60px);
-    }
-    to { opacity: 1 }
+  from {
+    opacity: 0;
+    transform: translateX(-60px);
+  }
+  to {
+    opacity: 1;
+  }
 }
 
 /* Media Query */
 
-@media (max-width: 740px){
-    .container {
-        max-width: 50em;
-        padding: 4em;
-    }
+@media (max-width: 740px) {
+  .container {
+    max-width: 50em;
+    padding: 4em;
+  }
 
-    h1 {
-        display: block;
-        font-size: 1rem;
-    }
-    
+  h1 {
+    display: block;
+    font-size: 1rem;
+  }
 }
 
 @media (max-width: 475px) {
-    .container {
-        display: block;
-        max-width: 40em;
-        font-size: .7rem;
-    }
+  .container {
+    display: block;
+    max-width: 40em;
+    font-size: 0.7rem;
+  }
 
-    h1 {
-        font-size: .6rem;
-        min-height: 2vh;
-    }
+  h1 {
+    font-size: 0.6rem;
+    min-height: 2vh;
+  }
 
-    .nav-links {
-        display: block;
-        font-size: .9rem;
-        min-height: 2vh;
-    }
+  .nav-links {
+    display: block;
+    font-size: 0.9rem;
+    min-height: 2vh;
+  }
 }
-
