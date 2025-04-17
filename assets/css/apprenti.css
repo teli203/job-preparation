@@ -58,7 +58,7 @@ a:hover {
 
 .nav-links {
   display: flex;
-  gap: 1.5rem;
+  gap: 1rem;
   list-style: none;
   font-size: 1.1rem;
   justify-content: space-evenly;
@@ -136,6 +136,6 @@ img {
   .nav-links {
     display: block;
     font-size: 0.9rem;
-    min-height: 2vh;
+    height: 2vh; 
   }
 }
