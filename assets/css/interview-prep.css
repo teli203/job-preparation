@@ -13,7 +13,7 @@ body {
 .container {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: 0.1fr 1fr 1fr 1fr 0.5fr;
+  grid-template-rows: 0.1fr .5fr .5fr .5fr 0.1fr;
   gap: 2em 2em;
   grid-auto-flow: row;
   grid-template-areas:
@@ -118,8 +118,8 @@ ol {
   border-radius: 3rem;
 }
 
-.header,
-.footer {
+header,
+footer {
   border: 0.4rem solid rgb(57, 4, 4);
   border-radius: 2.5rem;
 }
@@ -230,7 +230,7 @@ button:hover {
 
 /* Grid Layout Formtion */
 
-.header {
+header {
   grid-area: header;
 }
 
@@ -250,7 +250,7 @@ button:hover {
   grid-area: pjt;
 }
 
-.footer {
+footer {
   grid-area: footer;
 }
 
