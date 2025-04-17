@@ -123,7 +123,7 @@ img {
 
 /* Grid Layout Formtion */
 
-.header {
+header {
   grid-area: header;
 }
 
@@ -147,7 +147,7 @@ img {
   grid-area: low-content;
 }
 
-.footer {
+footer {
   grid-area: footer;
 }
 
