@@ -100,7 +100,7 @@ img {
 }
 
 .pgh_btm {
-  white-space: pre-wrap; /* This CSS property respects line breaks (newlines) added in your content as is without the need for <br> or wrapping elements. */
+  /*white-space: pre-wrap;*/  white-space: pre-wrap; /* This CSS property respects line breaks (newlines) added in your content as is without the need for <br> or wrapping elements. */
   columns: 200px 2;
   column-gap: 30px;
   padding: 25px;
